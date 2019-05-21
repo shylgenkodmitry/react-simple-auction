@@ -20,11 +20,11 @@ class App extends Component {
                     <meta name="keywords" content="Jumper, Male Jumper, Auction, Male Jumper Auction" />
 
                 </Helmet>
-                <a className="logo split-logo hidden-xs wow fadeIn" href="" data-wow-delay=".5s">
-                    <img alt="" src="assets/images/logo.png" width="100" height="100"/>
+                <a className="logo split-logo d-none d-sm-block wow fadeIn" href="" data-wow-delay=".5s">
+                    <img alt="" src="assets/images/logo.png" />
                 </a>
-                <a className="logo split-logo visible-xs-block wow fadeIn text-center" style={{'width': '100%'}} href="" data-wow-delay=".5s">
-                    <img alt="" src="assets/images/logo.png" width="100" height="100"/>
+                <a className="logo split-logo d-block d-sm-none wow fadeIn text-center" style={{'width': '100%'}} href="" data-wow-delay=".5s">
+                    <img alt="" src="assets/images/logo.png" />
                 </a>
 
                 <div className="main split split-2">
