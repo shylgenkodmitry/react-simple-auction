@@ -1,31 +1,17 @@
 import React, { Component } from 'react'
+import Slider from "./Slider";
 
 class LiveAuction extends  Component {
     render() {
         return (
-            <section className="left-section product-bg wow fadeInDown" data-wow-delay=".7s">
+            <section className="left-section wow fadeInDown" data-wow-delay=".7s">
                 <div className="inner">
                     <div className="col-md-12">
                         <h1>
                             <span>Sweatshirt</span><br/> of the month
                         </h1>
-                        <div className="card-carousel" style={{marginTop: '30px'}}>
-                            <div className="my-card">
-                                <img alt="" src="assets/images/products/1.jpg" width="100" height="100"/>
-                            </div>
-                            <div className="my-card">
-                                <img alt="" src="assets/images/products/2.jpg" width="100" height="100"/>
-                            </div>
-                            <div className="my-card">
-                                <img alt="" src="assets/images/products/3.jpg" width="100" height="100"/>
-                            </div>
-                            <div className="my-card">
-                                <img alt="" src="assets/images/products/4.jpg" width="100" height="100"/>
-                            </div>
-                            <div className="my-card">
-                                <img alt="" src="assets/images/products/2.jpg" width="100" height="100"/>
-                            </div>
-                            <div className="clearfix"></div>
+                        <div className="slider-container">
+                            <Slider />
                         </div>
                         <h2 style={{marginTop: '30px', marginBottom: '15px'}}>
                             <span>Long Sleeve Half Zip Mock Neck Sweatshirt</span>

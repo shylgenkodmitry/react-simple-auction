@@ -10,8 +10,7 @@ class Slider extends Component {
             "assets/images/products/3.jpg",
             "assets/images/products/4.jpg",
             "assets/images/products/5.jpg",
-            "assets/images/products/6.jpg",
-            // "assets/images/products/7.jpg"
+            "assets/images/products/6.jpg"
         ];
 
         const cards = images.map((image, index) => {
