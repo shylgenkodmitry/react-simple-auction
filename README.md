@@ -1,4 +1,4 @@
-This project demonstrates how to fetch and use data from REST APIs.
+This project is for simple auction where only one product is on sale in a month.
 
 ## Available Scripts
 
