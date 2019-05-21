@@ -5,12 +5,12 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 class Slider extends Component {
     render() {
         const images = [
-            "assets/images/products/1.jpg",
-            "assets/images/products/2.jpg",
-            "assets/images/products/3.jpg",
-            "assets/images/products/4.jpg",
-            "assets/images/products/5.jpg",
-            "assets/images/products/6.jpg"
+            require('./assets/images/products/1.jpg'),
+            require('./assets/images/products/2.jpg'),
+            require('./assets/images/products/3.jpg'),
+            require('./assets/images/products/4.jpg'),
+            require('./assets/images/products/5.jpg'),
+            require('./assets/images/products/6.jpg')
         ];
 
         const cards = images.map((image, index) => {

@@ -11,6 +11,8 @@ class App extends Component {
     }
 
     render() {
+        const logo = require('./assets/images/logo.png');
+
         return (
             <div className="wrapper">
                 <Helmet>
@@ -20,11 +22,11 @@ class App extends Component {
                     <meta name="keywords" content="Jumper, Male Jumper, Auction, Male Jumper Auction" />
 
                 </Helmet>
-                <a className="logo split-logo d-none d-sm-block wow fadeIn" href="" data-wow-delay=".5s">
-                    <img alt="" src="assets/images/logo.png" />
+                <a className="logo split-logo d-none d-sm-block wow fadeIn" href="/" data-wow-delay=".5s">
+                    <img alt="" src={logo} />
                 </a>
-                <a className="logo split-logo d-block d-sm-none wow fadeIn text-center" style={{'width': '100%'}} href="" data-wow-delay=".5s">
-                    <img alt="" src="assets/images/logo.png" />
+                <a className="logo split-logo d-block d-sm-none wow fadeIn text-center" style={{'width': '100%'}} href="/" data-wow-delay=".5s">
+                    <img alt="" src={logo} />
                 </a>
 
                 <div className="main split split-2">
