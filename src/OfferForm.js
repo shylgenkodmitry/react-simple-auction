@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class OfferForm extends Component {
     render() {
         return (
-            <section className="right-section wow fadeInDown" data-wow-delay=".8s">
+            <section className="right-section wow fadeIn" data-wow-delay=".8s">
                 <div className="col-md-12">
                     <div className="offer-title text-center">
                         <h1>Interested in the product?</h1>

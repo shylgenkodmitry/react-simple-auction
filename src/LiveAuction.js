@@ -4,7 +4,7 @@ import Slider from "./Slider";
 class LiveAuction extends  Component {
     render() {
         return (
-            <section className="left-section wow fadeInDown" data-wow-delay=".7s">
+            <section className="left-section wow fadeIn" data-wow-delay=".7s">
                 <div className="inner">
                     <div className="col-md-12">
                         <h1>

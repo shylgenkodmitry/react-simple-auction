@@ -1,9 +1,15 @@
 import React, {Component} from 'react'
 import { Helmet } from 'react-helmet'
+import { WOW } from "wowjs/dist/wow"
 import LiveAuction from "./LiveAuction"
 import OfferForm from "./OfferForm"
 
 class App extends Component {
+
+    componentDidMount() {
+        new WOW().init();
+    }
+
     render() {
         return (
             <div className="wrapper">

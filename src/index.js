@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/css/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/css/animate.css';
+import 'animate.css';
 
 import App from './App';
 
