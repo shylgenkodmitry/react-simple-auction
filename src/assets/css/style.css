@@ -1,29 +1,4 @@
 
-/* ---------------------------
-------- Elite CSS File -------
------------------------------*/
-
-
-/*--------------
-All Contents
---------------*/
-
-/*-----------------
-1. Reset.css
-2. Helper Classes
-3. Split Section Styling
-4. Contact Page Styling
-5. All Media Queries
-------------------*/
-
-
-/*----- 1. Reset.css -----*/
-
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,8 +15,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	 font-size: 100%;
+	 font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -68,10 +43,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
-/* --- Common Styles ---*/
-
 h1 {
   font-size: 16px;
 	font-family: Poppins;
@@ -82,87 +53,8 @@ p {
 	font-family: Poppins;
 }
 
-/*----- Helper Classes -----*/
-
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-::-webkit-scrollbar {
-	display: none;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: Poppins;
-}
-
-
-::-moz-selection {
-    color: #FFFFFF;
-    background: #2ECC4F;
-}
-
-::selection {
-    color: #FFFFFF;
-    background: #2ECC4F;
-}
-
-.nopadding {
-	padding: 0;
-}
-
-.custompadding {
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-.no-margin {
-	margin-right: 0;
-	margin-left: 0;
-}
-
-.right-padding {
-	padding-left: 0;
-	padding-right: 15px;
-}
-
-.error-message {
-	color: #FF3333;
-	font-family: Poppins;
-	margin-top: 5px;
-}
-
-.success-message {
-	color:#009900;
-	font-family: Poppins;
-	margin-top: 5px;
-}
-
-#loading {
-   width: 100%;
-   height: 100%;
-   top: 0px;
-   left: 0px;
-   position: fixed;
-   opacity: 1;
-   background-color: rgba(255, 255, 255, 0.99);
-   z-index: 9999;
-   text-align: center;
-}
-
-#loading-image {
-	display: inline;
-  top: 40%;
-  position: relative;
-  z-index: 9999;
 }
 
 .wrapper {
@@ -170,13 +62,9 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100%;
 }
 
-
-
-/* ------------------------------------------------------
----------------- Side Menu Styling Starts ---------------
---------------------------------------------------------*/
-
-
+/* -------------------------------------------------
+--------------- Home Page Styling Starts -----------
+---------------------------------------------------*/
 
 .logo {
 	white-space: nowrap;
@@ -197,19 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 .logo:hover, .logo:focus {
 	text-decoration: none;
 	color: #111111;
-}
-
-
-
-/* -------------------------------------------------
---------------- Home Page Styling Starts -----------
----------------------------------------------------*/
-
-.main {
-  width: 100%;
-	height: 100%;
-	padding-right: 0;
-	transition: 0.5s;
 }
 
 .split {
@@ -273,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .inner p {
-	max-width: 400px;
+	max-width: 600px;
 	font-family: Poppins;
 	font-size: 13px;
 	font-weight: 400;
@@ -343,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .split .inner {
-	padding: 200px 0 0 0;
+	padding: 100px 0 0 0;
 }
 
 
@@ -632,133 +507,15 @@ label {
 	overflow: hidden;
 }
 
-
-
-/*----------------------------------------------------
-------------- All ------------------------------------
---------------------- Media --------------------------
-------------------------------- Queries --------------
------------------------------------------------------*/
-
-@media only screen and (min-width: 767px) {
-
-	.logo {
-		position: absolute;
-		top: 50px;
-		left: 128px;
-		color: #2ECC4F;
-	}
-
-	.split-logo {
-		left: 60px;
-	}
-
-	.inner {
-		padding: 250px 0 0 0;
-		overflow: hidden;
-	}
-
-	.split .inner {
-		padding: 120px 0 0 0;
-	}
-
-	.split-3 .inner {
-		padding: 150px 0 0 0;
-	}
-
-	.inner h1 {
-		font-size: 54px;
-	}
-
-	.split-2 .right-section {
-		padding: 100px 50px 50px 50px;
-	}
-
-	.split-3 .right-section {
-		padding: 30px 50px 0 50px;
-	}
-
+.slider-container {
+	width: 60%;
+	margin: 30px auto;
 }
 
-@media only screen and (min-width: 421px) and (max-width: 991px) {
-	.extra .extra-box {
-		padding: 30px;
-		max-width: 600px;
-		margin: 0 auto;
-		margin-bottom: 20px;
-	}
-
-	.split .extra .extra-box {
-		padding: 30px;
-		max-width: 100%;
-		margin: 0 auto;
-		margin-bottom: 20px;
-	}
-
+.carousel-image-wrapper {
+	height: 240px;
 }
 
-
-	@media only screen and (max-width : 801px) {
-
-     .right-section{
-        position: relative;
-        width: 100%;
-    }
-
-     .left-section{
-        position: relative;
-        width: 100%;
-        min-height: 100%;
-    }
-
-		.split .inner {
-			padding: 150px 0 100px 0;
-			overflow: hidden;
-			text-align: center;
-		}
+.carousel-image-wrapper>img {
+	height: 100%;
 }
-
-
- @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
-   .right-section{
-      -webkit-overflow-scrolling: touch;
-  }
-}
-
- @media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
-
-   .split-home .right-section,  .split-home .left-section{
-      -webkit-overflow-scrolling: touch;
-  }
-}
-
-	@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation: landscape) {
-   .right-section{
-      -webkit-overflow-scrolling: touch;
-  }
-}
-
-	@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
-     .left-section {
-       min-height: 100vh;
-    }
-  }
-
-	/*@media only screen and (min-device-width : 768px) and (max-device-width : 1280px) and (orientation : landscape) {*/
-
-	 /*.product-bg img {*/
-		 /*margin-top: 100px;*/
-	 /*}*/
- /*}*/
-
-	@media only screen and (max-width: 420px) {
-
-		.right-section {
-			 padding: 0 10px 0 10px;
-	 }
- }
-
-/* --------------------------------------------------
-------- Media Queries for Split Layout Ends ---------
----------------------------------------------------*/

@@ -20,8 +20,8 @@ class App extends Component {
 
                     <meta name="description" content="Male Jumper Auction" />
                     <meta name="keywords" content="Jumper, Male Jumper, Auction, Male Jumper Auction" />
-
                 </Helmet>
+
                 <a className="logo split-logo d-none d-sm-block wow fadeIn" href="/" data-wow-delay=".5s">
                     <img alt="" src={logo} />
                 </a>
