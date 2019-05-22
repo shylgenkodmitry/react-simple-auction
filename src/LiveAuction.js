@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Slider from "./Slider";
+import Counter from "./Counter";
 
 class LiveAuction extends  Component {
     render() {
@@ -34,20 +35,8 @@ class LiveAuction extends  Component {
                                 </tbody>
                             </table>
                         </div>
-                        <div className="counter">
-                            <ul id="countdown">
-                                <li><span className="days">00</span><p className="days_text">Days</p></li>
-                                <li className="seperator">:</li>
-                                <li><span className="hours">00</span><p className="hours_text">Hours</p>
-                                </li>
-                                <li className="seperator">:</li>
-                                <li><span className="minutes">00</span><p className="minutes_text">Min</p>
-                                </li>
-                                <li className="seperator">:</li>
-                                <li><span className="seconds">00</span><p className="seconds_text">Sec</p>
-                                </li>
-                            </ul>
-                        </div>
+
+                        <Counter />
                     </div>
                 </div>
             </section>
